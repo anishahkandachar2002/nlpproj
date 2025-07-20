@@ -1,22 +1,14 @@
-# Core App
 streamlit==1.35.0
 flask==3.0.3
 
-# LangChain
 langchain==0.2.1
 langchain-community==0.2.1
 langchain-core==0.2.1
 
-# Vector Store and Embeddings
 faiss-cpu==1.7.4
 sentence-transformers==2.6.1
 
-# Transformers + Torch
 transformers==4.41.1
-torch==2.3.0
-
-# Optional (for tokenizers compatibility)
+torch==2.1.2
 tokenizers==0.19.1
-
-# Backend for tokenizer models
 huggingface-hub==0.23.2
